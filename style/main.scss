@@ -1,0 +1,13 @@
+@import "abstracts/var";
+
+@import"base/reset"; 
+
+@import "base/blocks/main-card",
+"base/blocks/quote",
+"base/blocks/second-card",
+"base/foundation";
+
+@import "themes/cloud", 
+"themes/rain",
+"themes/sun", 
+"themes/snow";
