@@ -67,13 +67,12 @@ select {
     scroll-behavior: auto;
   }
 }
-.weather-card {
+.weather-card__header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.weather-card__header {
+  width: 360px;
+  height: 386px;
   font-weight: 500;
   font-size: 25px;
   line-height: 38px;
@@ -81,8 +80,50 @@ select {
   background: #91B4C6;
   border-radius: 35px;
 }
+.weather-card__now {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.weather-card__title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+}
+.weather-card__temp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.weather-card__temp--title {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 150px;
+}
+.weather-card__icon {
+  width: 96px;
+  height: 75px;
+}
+.weather-card__day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22px;
+  gap: 23px;
+  margin-bottom: 15px;
+}
+.weather-card__desc {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.weather-card__inf {
+  font-size: 15px;
+}
 
 body {
+  background-color: bisque;
   height: 100vh;
   width: 428px;
   font-family: "Poppins", sans-serif;
