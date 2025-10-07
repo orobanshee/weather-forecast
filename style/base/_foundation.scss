@@ -1,3 +1,7 @@
+:root {
+  --theme-bg: var(--cloudy-1);
+}
+
 body {
     background-color: bisque;
 
@@ -10,6 +14,56 @@ body {
     font-style: normal;
 }
 
-.theme--cloudy {
-    background-image: ;
+.theme-cloudy--1 {
+    background-image: $cloudy-1;
+
+}
+
+.theme-cloudy--2 {
+
+    background-image: $cloudy-2;
+
+}
+.theme-cloudy--3 {
+
+background-image: $cloudy-3;
+
+}
+.theme-cloudy--4 {
+
+background-image: $cloudy-4;
+
+}
+.theme-sunny--1 {
+
+background-image: $sunny-1;
+
+
+}.theme-sunny--2{
+
+background-image: $sunny-2;
+
+}
+.theme-rainy--1 {
+
+background-image: $rainy-1;
+
+}
+.theme-rainy--2 {
+
+background-image: $rainy-2;
+
+}
+.theme-rainy--3 {
+
+background-image: $rainy-3;
+}
+
+.theme-snowy--1 {
+
+background-image: $snowy-1;
+}
+.theme-snowy--2 {
+background-image: $snowy-2;
+
 }

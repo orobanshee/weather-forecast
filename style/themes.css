@@ -1,0 +1,55 @@
+/* CLOUDY THEMES */
+.theme-cloudy--1 {
+  background-image: url("/img/weather/cloudy/CLOUDY_1.png");
+}
+
+.theme-cloudy--2 {
+  background-image: url("/img/weather/cloudy/CLOUDY_2.png");
+}
+
+.theme-cloudy--3 {
+  background-image: url("/img/weather/cloudy/CLOUDY_3.png");
+}
+
+.theme-cloudy--4 {
+  background-image: url("/img/weather/cloudy/CLOUDY_4.png");
+}
+
+/* SUNNY THEMES */
+.theme-sunny--1 {
+  background-image: url("/img/weather/sunny/SUNNY_1.png");
+}
+
+.theme-sunny--2 {
+  background-image: url("/img/weather/sunny/SUNNY_2.png");
+}
+
+/* RAINY THEMES */
+.theme-rainy--1 {
+  background-image: url("/img/weather/rainy/RAINY_1.png");
+}
+
+.theme-rainy--2 {
+  background-image: url("/img/weather/rainy/RAINY_2.png");
+}
+
+.theme-rainy--3 {
+  background-image: url("/img/weather/rainy/RAINY_3.png");
+}
+
+/* SNOWY THEMES */
+.theme-snowy--1 {
+  background-image: url("/img/weather/snowy/SNOWY_1.png");
+}
+
+.theme-snowy--2 {
+  background-image: url("/img/weather/snowy/SNOWY_2.png");
+}
+
+/* OPTIONAL */
+body[class^="theme-"] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* transition: background-image 0.3s ease-in-out; */
+}
