@@ -1,8 +1,6 @@
-@import "abstracts/var";
-
 @import"base/reset"; 
 
-@import "base/blocks/main-card",
-"base/blocks/quote",
+@import "base/foundation", 
+"base/blocks/main-card",
 "base/blocks/second-card",
-"base/foundation";
+"base/blocks/footer";

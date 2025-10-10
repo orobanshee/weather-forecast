@@ -1,0 +1,33 @@
+.weather-card__today {
+  
+  margin: 27px 34px 50px 34px;
+
+  background: radial-gradient(
+      97.57% 210.75% at 0.9% 2.98%,
+      rgba(145, 180, 198, 0.525) 0%,
+      rgba(145, 180, 198, 0.225) 100%
+    );
+
+    backdrop-filter: blur(21px);
+    border-radius: 25px;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+    font-size: 15px;
+
+    padding: 20px;
+  }
+
+  h4 {
+    font-weight: 100 !important;
+  }
+}
+
+.mini-forecast {
+  display: flex;
+  flex-direction: column;
+}

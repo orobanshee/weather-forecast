@@ -1,143 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beautiful weather forecast</title>
-    <link rel="stylesheet" href="/style/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/themes.css" />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
-</head>
+  </head>
 
-<body class="theme--default">
-    
-        <main class="weather-card">
+  <body class="theme-cloudy--1">
+    <main class="weather-card">
+      <section class="weather-card__header">
+        <div class="weather-card__now">
+          <h2 class="weather-card__title">Today</h2>
 
-            <section class="weather-card__header">
+          <a href="#!" class="weather-card__dropdown-menu">
+            <img src="img/tech_icons/numba.svg" alt="" />
+          </a>
+        </div>
 
-                <div class="weather-card__now">
+        <div class="weather-card__temp">
+          <img
+            src="img/weather_icons/double_cloud.svg"
+            alt="cloud"
+            class="weather-card__icon"
+          />
 
-                    <h2 class="weather-card__title">Today </h2>
+          <h1 class="weather-card__temp--title">25 <span>°</span>
+          </h1>
+        </div>
 
-                    <a href="#!" class="weather-card__dropdown-menu">
-                        <img src="img/tech_icons/numba.svg" alt="">
-                    </a>
+        <div class="weather-card__day">
+          <p class="weather-card__desc">Cloudy</p>
 
-                </div>
+          <p class="weather-card__location">California, Los Angeles</p>
 
-                <div class="weather-card__temp">
+          <p class="weather-card__data">21 Oct 2019</p>
+        </div>
+        <div class="weather-card__inf">
+          <span>Feels like 28</span> | <span>Sunset 18:20</span>
+        </div>
+      </section>
 
-                    <img src="img/weather_icons/double_cloud.svg" alt="cloud" class="weather-card__icon">
-                
-                    <h1 class="weather-card__temp--title">25°</h1>
+      <section class="weather-card__today">
+        <ul>
+          <li class="mini-forecast">
+            <h4>Now</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>2 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>3 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>4 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>5 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>6 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>7 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>8 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>9 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+            25°
+          </li>
+          <li class="mini-forecast">
+            <h4>10 AM</h4>
+            <span>
+              <img src="img/weather_icons/mini_double_cloud.svg" alt="" />
+            </span>
+           <span>
+            25°
+           </span> 
+          </li>
+        </ul>
+      </section>
 
-                </div>
+      <footer class="footer">
+        <h2 class="footer__title">Random Text</h2>
 
-             <div class="weather-card__day">
-
-                 <p class="weather-card__desc">Cloudy</p>
-              
-                <p class="weather-card__location">California, Los Angeles</p>
-              
-                 <p class="weather-card__data">21 Oct 2019</p>
-
-             </div>
-             <div class="weather-card__inf">
-
-                 <span>Feels like 28</span> | <span>Sunset 18:20</span>
-
-             </div>
-
-            </section>
-            
-            <section class="weather-card__today">
-                <ul>
-                    <li class="mini-forecast">
-                        <h4>Now</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>2 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>3 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>4 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>5 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>6 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>7 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>8 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>9 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                     <li class="mini-forecast">
-                        <h4>10 AM</h4>
-                        <span>
-                            <img src="img/weather_icons/mini_double_cloud.svg" alt="">
-                        </span>
-                        25°
-                    </li>  
-                    
-                </ul>
-            </section>
-
-            <footer class="footer">
-                <h2>Random Text</h2>
-
-                <p>Improve him believe opinion offered met and end cheered forbade. Friendly as stronger 
-                    speedily by recurred. Son interest wandered 
-                    sir addition end say. Manners beloved affixed 
-                    picture men ask.</p>
-            </footer>
-            
-        </main>
-    
-    </body>
+        <p class="footer__quote">
+          Improve him believe opinion offered met and 
+            end cheered forbade. Friendly as stronger 
+            speedily by recurred. Son interest wandered 
+            sir addition end say. Manners beloved affixed 
+            picture men ask.
+        </p>
+      </footer>
+    </main>
+  </body>
 </html>

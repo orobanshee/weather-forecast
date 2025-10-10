@@ -34,10 +34,13 @@ body {
 
 }
 
-ul[class],
+ul,
 ol[class] {
   list-style: none;
+  padding: 0;
 }
+
+
 
 a {
   text-decoration-skip-ink: auto;
