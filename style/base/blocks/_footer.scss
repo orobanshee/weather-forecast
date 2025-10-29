@@ -1,8 +1,9 @@
 .footer {
+    max-width: 360px;
     font-weight: 600;
 
+    margin-bottom: 54px;
     &__title {
-    margin: 0 0px 50px 60px;
     
     font-size: 20px;
     line-height: 30px;
@@ -11,7 +12,6 @@
     }
 
     &__quote {
-    margin: 0 45px 50px 60px ;
     
     font-size: 15px;
     line-height: 22px;

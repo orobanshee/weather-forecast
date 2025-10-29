@@ -1,5 +1,5 @@
 .weather-card__today {
-  
+  width: 360px;
   margin: 27px 34px 50px 34px;
 
   background: radial-gradient(
@@ -10,16 +10,28 @@
 
     backdrop-filter: blur(21px);
     border-radius: 25px;
-
+   
   ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     gap: 20px;
+    row-gap: 40px;
+    place-items: center;
 
     font-size: 15px;
 
+    position: relative;
     padding: 20px;
+  }
+  ul::after {
+  content: ''; 
+  position: absolute;
+  top: 50%; 
+  
+  width: 75%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3); 
   }
 
   h4 {
@@ -28,6 +40,11 @@
 }
 
 .mini-forecast {
-  display: flex;
-  flex-direction: column;
+  span {
+    display: flex;
+    justify-content: space-evenly;
+    
+    gap: 4px;
+    padding-right: 3px;
+  }
 }
